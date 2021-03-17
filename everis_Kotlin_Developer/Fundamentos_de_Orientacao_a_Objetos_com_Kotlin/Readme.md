@@ -11,4 +11,5 @@
     informações sobre o update do projeto e que o mesmo pode crescer
 ### Introdução a Orientação a objetos em Kotlin
     Permitir que consiga abstrair do mundo real objetos ou items que podem ser aplicados num programa. Em que um objeto possui atributos próprios mas que generalizando todos esses objetos possuis as mesmas propriedades mas com valores diferentes.
-    
+### Classe pública e classe privada
+    Classe é a forma de declarar um objeto e demonstrar nele seus atributos e funções. Formas de organizar melhor o código dando atributos e funções a uma abstração de algo real, no estilo mundo das ideias, dessa foram é possível criar um objeto a partir dessa classe que herda todos os atributos desta classe.
