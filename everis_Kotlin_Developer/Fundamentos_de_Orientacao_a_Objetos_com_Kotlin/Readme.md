@@ -33,4 +33,5 @@
     possível ter funções dentro das classes, essas funções são chamadas de métodos.
     As funções permitem ter comportamentos 
     E as variáveis permitem as classes terem atributos
-     
+### Membros das classes na prática - Parte 4
+    Para criar um constructor primário deve-se declarar as variáveis entre parenteses, somente a classe deve saber como e se pode mexer nos valores e atributos da classe.

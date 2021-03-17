@@ -4,7 +4,7 @@ class Pessoa {
     var cpf: String = "000.000.000-00"
     private set
 
-    constructor()
+    constructor() // Contructor secundário
 
     fun pessoaInfo() = "$nome e $cpf" // Possível acessar variáveis colocando o $
 }
