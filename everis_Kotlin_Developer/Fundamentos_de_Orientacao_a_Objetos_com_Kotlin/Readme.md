@@ -13,3 +13,12 @@
     Permitir que consiga abstrair do mundo real objetos ou items que podem ser aplicados num programa. Em que um objeto possui atributos próprios mas que generalizando todos esses objetos possuis as mesmas propriedades mas com valores diferentes.
 ### Classe pública e classe privada
     Classe é a forma de declarar um objeto e demonstrar nele seus atributos e funções. Formas de organizar melhor o código dando atributos e funções a uma abstração de algo real, no estilo mundo das ideias, dessa foram é possível criar um objeto a partir dessa classe que herda todos os atributos desta classe.
+### Entendendo sobre classes na prática e criando o projeto
+    O instrutor clonou o seu repositório, porém esse repositório está completo, por esse motivo criari um projeto novo para seguir o fluxo
+    Arquivo POM -> Onde o Mavem gerencia as dependências, propriedades, puglins.
+    Criar uma classe simples no arquivo Kotlin. Utilizando sempre a estrutura de packages.
+    Sempre que for criar um arquivo kotlin é necessário deixar no início do arquivo de qual package esse arquivo é, dessa forma a estrutura fica bem organizada.0
+    var nome: String -> Dessa forma fica explicito que será usado um String
+    val -> semi-constant que recebe o valor uma única vez e não pode ser alterado depois.
+    Para se criar um objeto em Kotlin é necessário instanciar a classe numa variável ou constante.
+    
