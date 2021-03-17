@@ -4,10 +4,9 @@ class Pessoa {
     var cpf: String = "000.000.000-00"
     private set
 
-    inner class Endereco { //Classes internas
-        var rua: String = "Rua: rua dos macacos"
+    constructor()
 
-    }
+    fun pessoaInfo() = "$nome e $cpf" // Possível acessar variáveis colocando o $
 }
 
 fun main() {
@@ -16,5 +15,7 @@ fun main() {
     println(tiago.nome)
     println(tiago.cpf)
 
-    println(tiago.Endereco().rua) // É preciso instanciar na declaração para poder acessar
+    println(tiago.pessoaInfo())
+
+    //println(tiago.Endereco().rua) // É preciso instanciar na declaração para poder acessar
 }
