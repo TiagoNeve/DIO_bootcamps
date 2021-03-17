@@ -23,3 +23,5 @@
     Para se criar um objeto em Kotlin é necessário instanciar a classe numa variável ou constante.
 ### O que são membros de uma classe
     A classe pode ter variáveis, funções ou contructores -> Esses são os membros da classes
+### Membros das classes na prática - Parte 1
+    É possível criar um inner class para gerar uma classe dentro de outra classe, para chama-la é necessário instanciar na chamada e acessar logo em seguida o atributo. Esse conceito de inner class é muito utilizado no consumo de api's quando o json vem com atributos internos, dessa forma com essa construção de inner class deixa o código melhor estruturado e mais em comunhão com a aplicação.
