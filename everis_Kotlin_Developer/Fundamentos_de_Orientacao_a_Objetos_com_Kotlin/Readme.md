@@ -21,4 +21,5 @@
     var nome: String -> Dessa forma fica explicito que será usado um String
     val -> semi-constant que recebe o valor uma única vez e não pode ser alterado depois.
     Para se criar um objeto em Kotlin é necessário instanciar a classe numa variável ou constante.
-    
+### O que são membros de uma classe
+    A classe pode ter variáveis, funções ou contructores -> Esses são os membros da classes
