@@ -7,3 +7,5 @@
 ## Conceito e prática sobre classe
 ### Apresentação do conteúdo do curso
     Resumo do que acontecerá no curso e requisitos básicos.
+### Determinando o projeto prático
+    informações sobre o update do projeto e que o mesmo pode crescer
