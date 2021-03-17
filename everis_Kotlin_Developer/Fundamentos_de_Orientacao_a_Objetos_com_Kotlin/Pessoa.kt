@@ -1,9 +1,11 @@
 class Pessoa {
     var nome: String = "Tiago"
+
     var cpf: String = "000.000.000-00"
+    private set
 
     inner class Endereco { //Classes internas
-        var rua: String = "Rua: rua"
+        var rua: String = "Rua: rua dos macacos"
 
     }
 }

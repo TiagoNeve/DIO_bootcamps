@@ -25,3 +25,5 @@
     A classe pode ter variáveis, funções ou contructores -> Esses são os membros da classes
 ### Membros das classes na prática - Parte 1
     É possível criar um inner class para gerar uma classe dentro de outra classe, para chama-la é necessário instanciar na chamada e acessar logo em seguida o atributo. Esse conceito de inner class é muito utilizado no consumo de api's quando o json vem com atributos internos, dessa forma com essa construção de inner class deixa o código melhor estruturado e mais em comunhão com a aplicação.
+### Membros das classes na prática - Parte 2
+    É possível alterar o conteúdo de um objeto chamando o atributo e alterando, para impedir que o atributo seja alterado é necessário definir um variável private. Mas isso vai impedir que seja setado um novo valor e também que seja pegado esse valor, então para impedir apenas o setamento é necessário atribuir debaixo da variável o atributo:
