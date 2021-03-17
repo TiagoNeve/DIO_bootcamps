@@ -35,3 +35,6 @@
     E as variáveis permitem as classes terem atributos
 ### Membros das classes na prática - Parte 4
     Para criar um constructor primário deve-se declarar as variáveis entre parenteses, somente a classe deve saber como e se pode mexer nos valores e atributos da classe.
+### Conceitos sobre data class
+    Data class -> Armazena dados sem poder modificalos, somente consulta-los.
+    Ela pode implementar interfaces. basicamente você pega o valor e adiciona em uma variável e o sistema pode modificar essa variável em questão, apra não ter que mecher diretamente nos data classes.
